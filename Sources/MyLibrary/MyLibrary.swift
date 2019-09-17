@@ -5,7 +5,7 @@ struct MyLibrary {
 }
 
 public class ConfigWifiVC: UIViewController {
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
     }
